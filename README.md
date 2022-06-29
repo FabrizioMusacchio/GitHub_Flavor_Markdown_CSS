@@ -5,13 +5,13 @@ The following Markdown CSS is based on [Chris Patuzzo's](https://github.com/tuzz
 ## Screenshots
 In the following screenshots, the CSS was applied to DEVONthink Markdown files. DEVONthink uses _MultiMarkdown_. The source code is in the "Example Markdown file.md" file.
 
-![](Screenshots/Screenshot 1 DT Main text with TOC.jpg)
-![](Screenshots/Screenshot 2 DT Text.jpg)
-![](Screenshots/Screenshot 3 DT Images.jpg)
-![](Screenshots/Screenshot 4 DT Tables.jpg)
-![](Screenshots/Screenshot 5 DT Tables.jpg)
-![](Screenshots/Screenshot 6 DT Equations and Syntax Highlighting.jpg)
-![](Screenshots/Screenshot 7 DT Footbotes.jpg)
+<div style="text-align: center;"><a href="Screenshots/Screenshot 1 DT Main text with TOC.jpg"><img src="Screenshots/Screenshot 1 DT Main text with TOC.jpg" style="width: 100%;"></a></div> 
+<div style="text-align: center;"><a href="Screenshots/Screenshot 2 DT Text.jpg"><img src="Screenshots/Screenshot 2 DT Text.jpg" style="width: 100%;"></a></div> 
+<div style="text-align: center;"><a href="Screenshots/Screenshot 3 DT Images.jpg"><img src="Screenshots/Screenshot 3 DT Images.jpg" style="width: 100%;"></a></div> 
+<div style="text-align: center;"><a href="Screenshots/Screenshot 4 DT Tables.jpg"><img src="Screenshots/Screenshot 4 DT Tables.jpg" style="width: 100%;"></a></div> 
+<div style="text-align: center;"><a href="Screenshots/Screenshot 5 DT Tables.jpg"><img src="Screenshots/Screenshot 5 DT Tables.jpg" style="width: 100%;"></a></div> 
+<div style="text-align: center;"><a href="Screenshots/Screenshot 6 DT Equations and Syntax Highlighting.jpg"><img src="Screenshots/Screenshot 6 DT Equations and Syntax Highlighting.jpg" style="width: 100%;"></a></div> 
+<div style="text-align: center;"><a href="Screenshots/Screenshot 7 DT Footbotes.jpg"><img src="Screenshots/Screenshot 7 DT Footbotes.jpg" style="width: 100%;"></a></div> 
 
 ## Table of Contents and the floating Back-to-top button
 The CSS contains style commands for a floating Back-to-top button and a formatted table of contents (TOC) layout. To add a TOC and to enable the floating Back-to-top button, add the following three command lines to your Markdown document (works for _MultiMarkdown_ only):
