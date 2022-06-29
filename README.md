@@ -38,6 +38,36 @@ To enable the Back-to-top button in DEVONthink To Go (DTTG), add the following c
   }
 }
 
+.top-link {
+    transition:     all .25s ease-in-out;
+    position:       fixed;
+    bottom:         0;
+    right:          0;
+    display:        inline-flex;
+    color:          #000000;
+
+    cursor:         pointer;
+    align-items:    center;
+    justify-content:center;
+    margin:         0 2em 2em 0;
+    border-radius:  50%;
+    padding:        .25em;
+    width:          1em;
+    height:         1em;
+    background-color: #F8F8F8;
+}
+```
+
+<div style="text-align: center;">
+<a href="Screenshots/Screenshot 8 DTTG Main text with TOC.jpg"><img src="Screenshots/Screenshot 8 DTTG Main text with TOC.jpg" style="width: 49%;"></a>
+<a href="Screenshots/Screenshot 9 DTTG Markdown settings menu.jpg"><img src="Screenshots/Screenshot 9 DTTG Markdown settings menu.jpg" style="width: 49%;"></a>
+
+**Left**: The rendered Markdown text with a formatted TOC and a floating Back-to-top button (lower right corner). **Right**: DEVONthink To Go's Markdown settings menu, where you can insert custom CSS.
+</div> 
+
+To achieve the TOC layout shown in the screenshot above, additionally add the following commands:
+
+```css
 .TOC {
     background:     #272A2B none repeat scroll 0 0;
     border:         0px solid #aaa;
@@ -63,31 +93,4 @@ To enable the Back-to-top button in DEVONthink To Go (DTTG), add the following c
     padding-left:   1em;
     margin-bottom:  -1em;
 }
-
-.top-link {
-    transition:     all .25s ease-in-out;
-    position:       fixed;
-    bottom:         0;
-    right:          0;
-    display:        inline-flex;
-    color:          #000000;
-
-    cursor:         pointer;
-    align-items:    center;
-    justify-content:center;
-    margin:         0 2em 2em 0;
-    border-radius:  50%;
-    padding:        .25em;
-    width:          1em;
-    height:         1em;
-    background-color: #F8F8F8;
-}
 ```
-
-
-<div style="text-align: center;">
-<a href="Screenshots/Screenshot 8 DTTG Main text with TOC.jpg"><img src="Screenshots/Screenshot 8 DTTG Main text with TOC.jpg" style="width: 49%;"></a>
-<a href="Screenshots/Screenshot 9 DTTG Markdown settings menu.jpg"><img src="Screenshots/Screenshot 9 DTTG Markdown settings menu.jpg" style="width: 49%;"></a>
-
-**Left**: The rendered Markdown text with a formatted TOC and a floating Back-to-top button (lower right corner). **Right**: DEVONthink To Go's Markdown settings menu, where you can insert custom CSS.
-</div> 
