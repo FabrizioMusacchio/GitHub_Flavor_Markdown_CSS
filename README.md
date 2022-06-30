@@ -94,3 +94,7 @@ To achieve the TOC layout shown in the screenshot above, additionally add the fo
     margin-bottom:  -1em;
 }
 ```
+
+### My previous solution for the TOC and the Back-to-top button
+Before I implemented this CSS solution, I inserted both Back-to-top buttons and the TOC manually via an Applescript. This was a rather static solution as after any changes to the document's headings I had to manually re-run the script. However, you can still find that script on [GitHub](https://github.com/FabrizioMusacchio/DEVONthink_Generate_Markdown_TOC), too, just in case you want play around with it yourself.
+
