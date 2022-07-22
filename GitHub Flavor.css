@@ -220,7 +220,8 @@ li:target {
     width:          100%;
 }
 
-.TOC:before {
+/*uncomment if you'd like to automatically add a title to your TOC:*/
+/*.TOC:before {
     content:        "Table of Contents";
     font-weight:    bold;
     font-size:      1.1em;
@@ -228,7 +229,7 @@ li:target {
     padding-left:   1em;
     margin-bottom: -1em;
     line-height:    3em;
-}
+}*/
 
 .TOC li, .TOC ul, .TOC ul li{
     list-style:     decimal;
